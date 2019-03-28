@@ -1,0 +1,15 @@
+{
+  "name": "intro-feathers",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "reveal-md --theme night --highlightTheme hybrid --port 1337 --css styles.css --scripts script.js README.md"
+  },
+  "keywords": [],
+  "author": "w3cj <cj@null.computer>",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "reveal-md": "^3.0.4"
+  }
+}
