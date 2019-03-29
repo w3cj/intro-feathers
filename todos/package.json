@@ -1,0 +1,57 @@
+{
+  "name": "todos",
+  "description": "A todos API",
+  "version": "0.0.0",
+  "homepage": "",
+  "main": "src",
+  "keywords": [
+    "feathers"
+  ],
+  "author": {
+    "name": "w3cj",
+    "email": "cj@null.computer"
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src",
+    "test": "test/",
+    "config": "config/"
+  },
+  "engines": {
+    "node": "^11.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {
+    "test": "npm run eslint && NODE_ENV= npm run jest",
+    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "dev": "nodemon src/",
+    "start": "node src/",
+    "jest": "jest"
+  },
+  "dependencies": {
+    "@feathersjs/authentication": "^2.1.16",
+    "@feathersjs/authentication-jwt": "^2.0.10",
+    "@feathersjs/authentication-local": "^1.2.9",
+    "@feathersjs/configuration": "^2.0.6",
+    "@feathersjs/errors": "^3.3.6",
+    "@feathersjs/express": "^1.3.1",
+    "@feathersjs/feathers": "^3.3.1",
+    "@feathersjs/socketio": "^3.2.9",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "feathers-mongoose": "^7.3.2",
+    "helmet": "^3.16.0",
+    "mongodb-core": "^3.2.2",
+    "mongoose": "^5.4.20",
+    "serve-favicon": "^2.5.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "jest": "^24.5.0",
+    "nodemon": "^1.18.10",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
